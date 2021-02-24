@@ -10,6 +10,7 @@ const Products = () => {
   return (
     <main>
       <Grid container justify='center' spacing={4}>
+        {products.map(product => ())}
         <Grid item></Grid>
       </Grid>
     </main>
