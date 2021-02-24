@@ -4,7 +4,7 @@ import Grid from '@material-ui/core';
 const Products = () => {
   return (
     <main>
-      <Grid></Grid>
+      <Grid container justify='center' spacing={4}></Grid>
     </main>
   );
 };
