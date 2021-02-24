@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <main>
       <Grid container justify='center' spacing={4}>
-        <Grid></Grid>
+        <Grid item></Grid>
       </Grid>
     </main>
   );
