@@ -4,3 +4,5 @@ import Grid from '@material-ui/core';
 const Products = () => {
   return <div></div>;
 };
+
+export default Products;
