@@ -9,7 +9,9 @@ const products = [
 const Products = () => {
   return (
     <main>
-      <Grid container justify='center' spacing={4}></Grid>
+      <Grid container justify='center' spacing={4}>
+        <Grid></Grid>
+      </Grid>
     </main>
   );
 };
