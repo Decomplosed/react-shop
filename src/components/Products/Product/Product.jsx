@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
 
-const Product = () => {
+const Product = ({ product }) => {
   return (
     <Card className={classes.root}>
       <CardMedia className={classes.media} image='' title={product.name} />
