@@ -12,7 +12,7 @@ import { AddShoppingCart } from '@material-ui/icons';
 const Product = () => {
   return (
     <Card className={classes.root}>
-      <CardMedia></CardMedia>
+      <CardMedia className={classes.media}></CardMedia>
     </Card>
   );
 };
