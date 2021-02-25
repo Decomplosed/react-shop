@@ -7,6 +7,7 @@ import {
   Typography,
   IconButton,
 } from '@material-ui/core';
+import { AddShoppingCart } from '@material-ui/icons';
 
 const Product = () => {
   return <div></div>;
