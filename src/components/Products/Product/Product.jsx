@@ -24,7 +24,7 @@ const Product = ({ product }) => {
           {product.description}
         </Typography>
       </CardContent>
-      <CardActions></CardActions>
+      <CardActions disableSpacing></CardActions>
     </Card>
   );
 };
