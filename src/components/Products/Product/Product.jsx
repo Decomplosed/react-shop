@@ -24,6 +24,7 @@ const Product = ({ product }) => {
           {product.description}
         </Typography>
       </CardContent>
+      <CardActions></CardActions>
     </Card>
   );
 };
