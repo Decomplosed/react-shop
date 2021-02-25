@@ -11,7 +11,7 @@ import { AddShoppingCart } from '@material-ui/icons';
 
 const Product = () => {
   return (
-    <Card>
+    <Card className={classes.root}>
       <CardMedia></CardMedia>
     </Card>
   );
