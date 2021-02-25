@@ -13,7 +13,7 @@ const Product = () => {
   return (
     <Card className={classes.root}>
       <CardMedia className={classes.media} image='' title={product.name} />
-      <CardContent></CardContent>
+      <CardContent className={classes.cardContent}></CardContent>
     </Card>
   );
 };
