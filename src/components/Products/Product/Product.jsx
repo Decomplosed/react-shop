@@ -18,6 +18,7 @@ const Product = () => {
           <Typography variant='h5' gutterBottom>
             {product.name}
           </Typography>
+          <Typography variant='h5'></Typography>
         </div>
       </CardContent>
     </Card>
