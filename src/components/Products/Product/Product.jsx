@@ -10,7 +10,11 @@ import {
 import { AddShoppingCart } from '@material-ui/icons';
 
 const Product = () => {
-  return <Card ></Card>
+  return (
+    <Card>
+      <CardMedia></CardMedia>
+    </Card>
+  );
 };
 
 export default Product;
