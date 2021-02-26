@@ -15,7 +15,12 @@ const Navbar = () => {
     <>
       <AppBar position='fixed' className={classes.appBar} color='inherit'>
         <Toolbar>
-          <img />
+          <img
+            src={}
+            alt='React Shop'
+            height='25px'
+            className={classes.image}
+          />
         </Toolbar>
       </AppBar>
     </>
