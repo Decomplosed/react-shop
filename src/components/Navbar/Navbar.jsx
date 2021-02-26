@@ -13,7 +13,7 @@ import { ShoppingCart } from '@material-ui/icons';
 const Navbar = () => {
   return (
     <>
-      <AppBar position='fixed' />
+      <AppBar position='fixed' className={classes.appBar} color='inherit' />
     </>
   );
 };
