@@ -22,6 +22,7 @@ const Navbar = () => {
               height='25px'
               className={classes.image}
             />
+            React Shop
           </Typography>
         </Toolbar>
       </AppBar>
