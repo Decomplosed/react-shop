@@ -11,7 +11,11 @@ import {
 import { ShoppingCart } from '@material-ui/icons';
 
 const Navbar = () => {
-  return <div></div>;
+  return (
+    <>
+      <AppBar />
+    </>
+  );
 };
 
 export default Navbar;
