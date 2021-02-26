@@ -26,7 +26,8 @@ const Navbar = () => {
             />
             React Shop
           </Typography>
-          <div className={classes.grow}></div>
+          <div className={classes.grow} />
+          <div className={classes.button}></div>
         </Toolbar>
       </AppBar>
     </>
