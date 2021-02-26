@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 
-import Logo from '../../assets/commerce.png';
+import logo from '../../assets/commerce.png';
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
         <Toolbar>
           <Typography variant='h6' className={classes.title} color='inherit'>
             <img
-              src={}
+              src={logo}
               alt='React Shop'
               height='25px'
               className={classes.image}
