@@ -10,6 +10,8 @@ import {
 } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 
+import Logo from '../../assets/commerce.png';
+
 const Navbar = () => {
   return (
     <>
