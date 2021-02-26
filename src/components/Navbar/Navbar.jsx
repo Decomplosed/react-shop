@@ -15,12 +15,14 @@ const Navbar = () => {
     <>
       <AppBar position='fixed' className={classes.appBar} color='inherit'>
         <Toolbar>
-          <img
-            src={}
-            alt='React Shop'
-            height='25px'
-            className={classes.image}
-          />
+          <Typography>
+            <img
+              src={}
+              alt='React Shop'
+              height='25px'
+              className={classes.image}
+            />
+          </Typography>
         </Toolbar>
       </AppBar>
     </>
