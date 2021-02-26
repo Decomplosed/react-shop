@@ -13,7 +13,7 @@ import { ShoppingCart } from '@material-ui/icons';
 const Navbar = () => {
   return (
     <>
-      <AppBar />
+      <AppBar position='fixed' />
     </>
   );
 };
