@@ -28,7 +28,10 @@ const Navbar = () => {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.button}>
-            <IconButton></IconButton>
+            <IconButton
+              aria-label='Show cart items'
+              color='inherit'
+            ></IconButton>
           </div>
         </Toolbar>
       </AppBar>
