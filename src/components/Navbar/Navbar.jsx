@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <>
       <AppBar position='fixed' className={classes.appBar} color='inherit'>
-        <Toolbar></Toolbar>
+        <Toolbar>
+          <img />
+        </Toolbar>
       </AppBar>
     </>
   );
