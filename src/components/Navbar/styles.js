@@ -52,4 +52,7 @@ export default makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  inputRoot: {
+    color: 'inherit',
+  },
 })
