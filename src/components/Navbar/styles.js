@@ -26,4 +26,7 @@ export default makeStyles((theme) => ({
       display: 'none',
     },
   },
+  grow: {
+    flexGrow: 1,
+  },
 })
