@@ -8,6 +8,7 @@ const App = () => {
 
   const fetchProducts = async () => {
     const { data } = await commerce.products.list();
+    setProducts(data);
   };
 
   return (
