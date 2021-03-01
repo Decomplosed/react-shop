@@ -11,6 +11,8 @@ const App = () => {
     setProducts(data);
   };
 
+  useEffect(() => {}, []);
+
   return (
     <div>
       <Navbar />
