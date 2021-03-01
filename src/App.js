@@ -11,7 +11,9 @@ const App = () => {
     setProducts(data);
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    fetchProducts();
+  }, []);
 
   return (
     <div>
