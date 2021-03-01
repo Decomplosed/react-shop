@@ -6,6 +6,8 @@ import { Products, Navbar } from './components';
 const App = () => {
   const [products, setProducts] = useState([]);
 
+  const fetchProducts = () => {};
+
   return (
     <div>
       <Navbar />
