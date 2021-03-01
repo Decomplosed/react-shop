@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { commerce } from './lib/commerce';
 
 import { Products, Navbar } from './components';
