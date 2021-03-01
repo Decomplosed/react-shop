@@ -20,7 +20,7 @@ const Product = ({ product }) => {
         image={product.image}
         title={product.name}
       />
-      <CardContent className={classes.cardContent}>
+      <CardContent>
         <div className={classes.cardContent}>
           <Typography variant='h5' gutterBottom>
             {product.name}
