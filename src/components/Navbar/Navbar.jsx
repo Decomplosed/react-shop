@@ -13,7 +13,7 @@ import { ShoppingCart } from '@material-ui/icons';
 import logo from '../../assets/commerce.png';
 import useStyles from './styles';
 
-const Navbar = () => {
+const Navbar = ({ totalItems }) => {
   const classes = useStyles();
 
   return (
