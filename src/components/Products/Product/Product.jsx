@@ -27,7 +27,12 @@ const Product = ({ product }) => {
           </Typography>
           <Typography variant='h5'>{product.formatted_with_symbol}</Typography>
         </div>
-        <Typography variant='body2' color='textSecondary' component='p'>
+        <Typography
+          dangerouslySetInnerHTML={{ __html: product.description }}
+          variant='body2'
+          color='textSecondary'
+          component='p'
+        >
           {product.description}
         </Typography>
       </CardContent>
