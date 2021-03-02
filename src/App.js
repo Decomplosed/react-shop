@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const handleAddToCart = async (productId, quantity) => {
-    const res = await commerce.cart.add();
+    const res = await commerce.cart.add(productId);
   };
 
   useEffect(() => {
