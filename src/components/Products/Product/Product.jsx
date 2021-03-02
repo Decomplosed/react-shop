@@ -32,9 +32,7 @@ const Product = ({ product }) => {
           variant='body2'
           color='textSecondary'
           component='p'
-        >
-          {product.description}
-        </Typography>
+        />
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
         <IconButton aria-label='Add to Cart'>
