@@ -5,7 +5,9 @@ const Cart = () => {
   return (
     <Container>
       <div className={classes.toolbar} />
-      <Typography>Your Shopping Cart</Typography>
+      <Typography className={classes.title} variant='h3'>
+        Your Shopping Cart
+      </Typography>
     </Container>
   );
 };
