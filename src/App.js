@@ -12,7 +12,7 @@ const App = () => {
     setProducts(data);
   };
 
-  const fetchCart = () => {};
+  const fetchCart = async () => {};
 
   useEffect(() => {
     fetchProducts();
