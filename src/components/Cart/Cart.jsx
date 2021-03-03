@@ -20,7 +20,7 @@ const Cart = ({ cart }) => {
         ))}
       </Grid>
       <div className={classes.cardDetails}>
-        <Typography></Typography>
+        <Typography variant='h4'></Typography>
       </div>
     </>
   );
