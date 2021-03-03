@@ -4,7 +4,7 @@ import { Container, Typography, Button, Grid } from '@material-ui/core';
 const Cart = () => {
   const isEmpty = true;
 
-  const EmptyCart = () => {}
+  const EmptyCart = () => <Typography></Typography>;
 
   return (
     <Container>
