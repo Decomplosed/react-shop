@@ -10,7 +10,11 @@ const Cart = () => {
     </Typography>
   );
 
-  const FilledCart = () => ()
+  const FilledCart = () => (
+    <>
+      <Grid></Grid>
+    </>
+  );
 
   return (
     <Container>
