@@ -23,6 +23,7 @@ const Cart = ({ cart }) => {
         <Typography variant='h4'>
           Subtotal: {cart.subtotal.formatted_with_symbol}
         </Typography>
+        <div></div>
       </div>
     </>
   );
