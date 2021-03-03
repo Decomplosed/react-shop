@@ -12,7 +12,9 @@ const Cart = ({ cart }) => {
 
   const FilledCart = () => (
     <>
-      <Grid container spacing={3}></Grid>
+      <Grid container spacing={3}>
+        {cart.line_items.map(item => ())}
+      </Grid>
     </>
   );
 
