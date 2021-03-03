@@ -22,6 +22,7 @@ const Cart = () => {
       <Typography className={classes.title} variant='h3'>
         Your Shopping Cart
       </Typography>
+      {isEmpty ? <EmptyCart /> : <FilledCart />}
     </Container>
   );
 };
