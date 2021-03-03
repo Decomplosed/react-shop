@@ -4,7 +4,11 @@ import { Container, Typography, Button, Grid } from '@material-ui/core';
 const Cart = () => {
   const isEmpty = true;
 
-  const EmptyCart = () => <Typography variant='subtitle1'></Typography>;
+  const EmptyCart = () => (
+    <Typography variant='subtitle1'>
+      You have no items in your cart, start adding some!
+    </Typography>
+  );
 
   return (
     <Container>
