@@ -10,6 +10,8 @@ const Cart = () => {
     </Typography>
   );
 
+  const FilledCart = () => ()
+
   return (
     <Container>
       <div className={classes.toolbar} />
