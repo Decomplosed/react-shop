@@ -19,7 +19,9 @@ const Cart = ({ cart }) => {
           </Grid>
         ))}
       </Grid>
-      <div className={classes.cardDetails}></div>
+      <div className={classes.cardDetails}>
+        <Typography></Typography>
+      </div>
     </>
   );
 
