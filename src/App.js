@@ -33,8 +33,10 @@ const App = () => {
     <Router>
       <div>
         <Navbar totalItems={cart.total_items} />
-        {/* <Products products={products} onAddToCart={handleAddToCart} /> */}
-        <Cart cart={cart} />
+        <Switch>
+          <Products products={products} onAddToCart={handleAddToCart} />
+          <Cart cart={cart} />
+        </Switch>
       </div>
     </Router>
   );
