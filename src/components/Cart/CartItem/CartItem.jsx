@@ -13,7 +13,11 @@ const CartItem = ({ item }) => {
   const classes = useStyles();
   return (
     <Card>
-      <CardMedia image={item.media.source} alt={item.name} />
+      <CardMedia
+        image={item.media.source}
+        alt={item.name}
+        className={classes.media}
+      />
     </Card>
   );
 };
