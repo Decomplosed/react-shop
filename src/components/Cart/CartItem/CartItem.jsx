@@ -34,6 +34,9 @@ const CartItem = ({ item }) => {
             +
           </Button>
         </div>
+        <Button variant='contained' type='button' color='secondary'>
+          Remove
+        </Button>
       </CardActions>
     </Card>
   );
