@@ -24,6 +24,7 @@ const CartItem = ({ item }) => {
           {item.line_total.formatted_with_symbol}
         </Typography>
       </CardContent>
+      <CardActions className={classes.CardActions}></CardActions>
     </Card>
   );
 };
