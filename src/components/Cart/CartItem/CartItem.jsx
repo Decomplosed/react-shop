@@ -18,6 +18,7 @@ const CartItem = ({ item }) => {
         alt={item.name}
         className={classes.media}
       />
+      <CardContent></CardContent>
     </Card>
   );
 };
