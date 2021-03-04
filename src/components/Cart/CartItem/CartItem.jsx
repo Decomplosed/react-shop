@@ -11,7 +11,7 @@ import useStyles from './styles';
 
 const CartItem = () => {
   const classes = useStyles();
-  return <div></div>;
+  return <Card></Card>;
 };
 
 export default CartItem;
