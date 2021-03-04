@@ -11,7 +11,11 @@ import useStyles from './styles';
 
 const CartItem = () => {
   const classes = useStyles();
-  return <Card></Card>;
+  return (
+    <Card>
+      <CardMedia />
+    </Card>
+  );
 };
 
 export default CartItem;
