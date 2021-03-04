@@ -7,6 +7,7 @@ import {
   CardContent,
   CardMedia,
 } from '@material-ui/core';
+import useStyles from './styles';
 
 const CartItem = () => {
   return <div></div>;
