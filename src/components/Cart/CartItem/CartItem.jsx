@@ -18,7 +18,9 @@ const CartItem = ({ item }) => {
         alt={item.name}
         className={classes.media}
       />
-      <CardContent className={classes.cardContent}></CardContent>
+      <CardContent className={classes.cardContent}>
+        <Typography></Typography>
+      </CardContent>
     </Card>
   );
 };
