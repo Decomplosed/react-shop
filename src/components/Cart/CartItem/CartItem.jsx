@@ -19,7 +19,7 @@ const CartItem = ({ item }) => {
         className={classes.media}
       />
       <CardContent className={classes.cardContent}>
-        <Typography></Typography>
+        <Typography variant='h4'></Typography>
       </CardContent>
     </Card>
   );
