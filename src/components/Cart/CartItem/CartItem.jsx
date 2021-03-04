@@ -29,6 +29,7 @@ const CartItem = ({ item }) => {
           <Button type='button' size='small'>
             -
           </Button>
+          <Typography>{item.quantity}</Typography>
           <Button type='button' size='small'>
             +
           </Button>
