@@ -26,7 +26,7 @@ const CartItem = ({ item }) => {
       </CardContent>
       <CardActions className={classes.CardActions}>
         <div className={classes.buttons}>
-          <Button></Button>
+          <Button type='button' size='small'></Button>
         </div>
       </CardActions>
     </Card>
