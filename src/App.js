@@ -34,7 +34,7 @@ const App = () => {
       <div>
         <Navbar totalItems={cart.total_items} />
         <Switch>
-          <Route></Route>
+          <Route exact path='/'></Route>
           <Products products={products} onAddToCart={handleAddToCart} />
           <Cart cart={cart} />
         </Switch>
