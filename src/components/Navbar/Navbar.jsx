@@ -32,8 +32,11 @@ const Navbar = ({ totalItems }) => {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.button}>
-            <Link to='/cart'></Link>
-            <IconButton aria-label='Show cart items' color='inherit'>
+            <IconButton
+              component={Link}
+              aria-label='Show cart items'
+              color='inherit'
+            >
               <Badge badgeContent={totalItems} color='secondary'>
                 <ShoppingCart />
               </Badge>
