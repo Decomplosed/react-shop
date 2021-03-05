@@ -37,7 +37,7 @@ const App = () => {
           <Route exact path='/'>
             <Products products={products} onAddToCart={handleAddToCart} />
           </Route>
-
+          <Route></Route>
           <Cart cart={cart} />
         </Switch>
       </div>
