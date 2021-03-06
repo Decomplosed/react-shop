@@ -5,7 +5,12 @@ import { Link } from 'react-router-dom';
 
 import useStyles from './styles';
 
-const Cart = ({ cart }) => {
+const Cart = ({
+  cart,
+  onUpdateCartQuantity,
+  onRemoveFromCart,
+  onEmptyCart,
+}) => {
   const classes = useStyles();
 
   const EmptyCart = () => (
