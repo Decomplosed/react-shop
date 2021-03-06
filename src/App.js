@@ -28,7 +28,7 @@ const App = () => {
     setCart(cart);
   };
 
-  const handleRemoveFromCart = async () => {};
+  const handleRemoveFromCart = async (productId) => {};
 
   useEffect(() => {
     fetchProducts();
