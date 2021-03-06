@@ -16,6 +16,7 @@ import useStyles from './styles';
 
 const Navbar = ({ totalItems }) => {
   const classes = useStyles();
+  const location = useLocation();
 
   return (
     <>
