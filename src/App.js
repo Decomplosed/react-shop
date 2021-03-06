@@ -22,7 +22,9 @@ const App = () => {
     setCart(item.cart);
   };
 
-  const handleUpdateCartQuantity = async (productId, quantity) => {};
+  const handleUpdateCartQuantity = async (productId, quantity) => {
+    const response = await commerce.cart.update();
+  };
 
   useEffect(() => {
     fetchProducts();
