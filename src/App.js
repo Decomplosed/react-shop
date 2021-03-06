@@ -23,7 +23,7 @@ const App = () => {
   };
 
   const handleUpdateCartQuantity = async (productId, quantity) => {
-    const response = await commerce.cart.update(productId, { quantity });
+    const { cart } = await commerce.cart.update(productId, { quantity });
   };
 
   useEffect(() => {
