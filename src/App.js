@@ -22,6 +22,8 @@ const App = () => {
     setCart(item.cart);
   };
 
+  const handleUpdateCartQuantity = () => {};
+
   useEffect(() => {
     fetchProducts();
     fetchCart();
