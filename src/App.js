@@ -28,6 +28,8 @@ const App = () => {
     setCart(cart);
   };
 
+  const handleRemoveFromCart = () => {}
+
   useEffect(() => {
     fetchProducts();
     fetchCart();
