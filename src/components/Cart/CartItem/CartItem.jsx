@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import useStyles from './styles';
 
-const CartItem = ({ item }) => {
+const CartItem = ({ item, handleUpdateCartQuantity, handleRemoveFromCart }) => {
   const classes = useStyles();
   return (
     <Card>
