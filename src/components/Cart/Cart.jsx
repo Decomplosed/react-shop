@@ -11,6 +11,7 @@ const Cart = ({ cart }) => {
   const EmptyCart = () => (
     <Typography variant='subtitle1'>
       You have no items in your cart, start adding some!
+      <Link></Link>
     </Typography>
   );
 
