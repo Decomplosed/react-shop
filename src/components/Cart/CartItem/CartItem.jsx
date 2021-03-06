@@ -12,7 +12,7 @@ import useStyles from './styles';
 const CartItem = ({ item, onUpdateCartQuantity, onRemoveFromCart }) => {
   const classes = useStyles();
 
-  const handleUpdateCartQuantity = () =>
+  const handleUpdateCartQuantity = (lineItemId, newQuantity) =>
     onUpdateCartQuantity(lineItemId, newQuantity);
 
   return (
