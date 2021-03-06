@@ -7,9 +7,9 @@ import useStyles from './styles';
 
 const Cart = ({
   cart,
-  onUpdateCartQuantity,
-  onRemoveFromCart,
-  onEmptyCart,
+  handleUpdateCartQuantity,
+  handleRemoveFromCart,
+  handleEmptyCart,
 }) => {
   const classes = useStyles();
 
@@ -17,7 +17,6 @@ const Cart = ({
     <Typography variant='subtitle1'>
       You have no items in your cart,
       <Link to='/cart' className={classes.link}>
-        {' '}
         start adding some!
       </Link>
     </Typography>
@@ -43,6 +42,7 @@ const Cart = ({
             type='button'
             variant='contained'
             color='secondary'
+            onClick={handleEmptyCart}
           >
             Empty Cart
           </Button>
