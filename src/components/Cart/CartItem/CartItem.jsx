@@ -11,6 +11,10 @@ import useStyles from './styles';
 
 const CartItem = ({ item, onUpdateCartQuantity, onRemoveFromCart }) => {
   const classes = useStyles();
+
+  const handleUpdateCartQuantity = () =>
+    onUpdateCartQuantity(lineItemId, newQuantity);
+
   return (
     <Card>
       <CardMedia
