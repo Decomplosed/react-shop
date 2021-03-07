@@ -13,6 +13,8 @@ import {
 import useStyles from './styles';
 
 const Checkout = () => {
+  const classes = useStyles();
+
   return (
     <>
       <div className={classes.toolbar} />
