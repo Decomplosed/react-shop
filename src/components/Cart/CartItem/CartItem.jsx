@@ -15,7 +15,7 @@ const CartItem = ({ item, onUpdateCartQuantity, onRemoveFromCart }) => {
   const handleUpdateCartQuantity = (lineItemId, newQuantity) =>
     onUpdateCartQuantity(lineItemId, newQuantity);
 
-  const handleRemoveFromCart = () => {};
+  const handleRemoveFromCart = (lineItemId) => {};
 
   return (
     <Card>
