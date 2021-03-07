@@ -14,7 +14,9 @@ const Checkout = () => {
   return (
     <>
       <div className={classes.toolbar} />
-      <main className={classes.layout}></main>
+      <main className={classes.layout}>
+        <Paper className={classes.paper}></Paper>
+      </main>
     </>
   );
 };
