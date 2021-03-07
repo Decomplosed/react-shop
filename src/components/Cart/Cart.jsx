@@ -8,6 +8,8 @@ import useStyles from './styles';
 const Cart = ({ cart, onUpdateCartQuantity, onRemoveFromCart, onEmptyCar }) => {
   const classes = useStyles();
 
+  const handleEmptyCart = () => onEmptyCart();
+
   const EmptyCart = () => (
     <Typography variant='subtitle1'>
       You have no items in your cart,
