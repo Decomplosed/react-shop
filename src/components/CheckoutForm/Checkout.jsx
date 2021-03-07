@@ -11,7 +11,11 @@ import {
 } from '@material-ui/core';
 
 const Checkout = () => {
-  return <div></div>;
+  return (
+    <>
+      <div className={classes.toolbar} />
+    </>
+  );
 };
 
 export default Checkout;
