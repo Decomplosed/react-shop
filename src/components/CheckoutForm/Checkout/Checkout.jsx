@@ -10,6 +10,8 @@ import {
   Button,
 } from '@material-ui/core';
 
+import useStyles from './styles';
+
 const Checkout = () => {
   return (
     <>
