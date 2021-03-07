@@ -14,7 +14,7 @@ const Checkout = () => {
   return (
     <>
       <div className={classes.toolbar} />
-      <main></main>
+      <main className={classes.layout}></main>
     </>
   );
 };
