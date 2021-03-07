@@ -14,6 +14,7 @@ const Checkout = () => {
   return (
     <>
       <div className={classes.toolbar} />
+      <main></main>
     </>
   );
 };
