@@ -63,7 +63,7 @@ const App = () => {
               onEmptyCart={handleEmptyCart}
             />
           </Route>
-          <Route></Route>
+          <Route exact path='/checkout'></Route>
         </Switch>
       </div>
     </Router>
