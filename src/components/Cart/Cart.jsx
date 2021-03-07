@@ -43,7 +43,7 @@ const Cart = ({ cart, onUpdateCartQuantity, onRemoveFromCart, onEmptyCar }) => {
             type='button'
             variant='contained'
             color='secondary'
-            onClick={onEmptyCar}
+            onClick={handleEmptyCart}
           >
             Empty Cart
           </Button>
