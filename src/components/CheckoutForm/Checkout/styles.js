@@ -37,4 +37,8 @@ export default makeStyles((theme) => ({
     display: 'flex',
     justifyContent: 'flex-end',
   },
+  button: {
+    marginTop: theme.spacing(3),
+    marginLeft: theme.spacing(1),
+  },
 }));
