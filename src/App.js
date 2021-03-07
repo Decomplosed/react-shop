@@ -63,6 +63,7 @@ const App = () => {
               onEmptyCart={handleEmptyCart}
             />
           </Route>
+          <Route></Route>
         </Switch>
       </div>
     </Router>
