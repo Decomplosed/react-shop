@@ -18,7 +18,7 @@ const Cart = ({
   const EmptyCart = () => (
     <Typography variant='subtitle1'>
       You have no items in your cart,{' '}
-      <Link to='/cart' className={classes.link}>
+      <Link to='/' className={classes.link}>
         start adding some!
       </Link>
     </Typography>
