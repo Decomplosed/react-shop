@@ -4,4 +4,5 @@ export default makeStyles((theme) => ({
   appBar: {
     position: 'relative',
   },
+  toolbar: theme.mixins.toolbar,
 }));
