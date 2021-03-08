@@ -18,7 +18,7 @@ const AddressForm = () => {
         Shipping Address
       </Typography>
       <FormProvider {...methods}>
-        <form></form>
+        <form onSubmit={() => {}}></form>
       </FormProvider>
     </>
   );
