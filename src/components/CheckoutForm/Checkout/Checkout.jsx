@@ -12,6 +12,8 @@ import {
 
 import useStyles from './styles';
 
+const steps = ['Shipping address', 'Payment details'];
+
 const Checkout = () => {
   const classes = useStyles();
 
