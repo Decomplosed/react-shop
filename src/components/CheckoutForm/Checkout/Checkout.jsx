@@ -9,6 +9,8 @@ import {
   Divider,
   Button,
 } from '@material-ui/core';
+import PaymentForm from '../PaymentForm';
+import AddressForm from '../AddressForm';
 
 import useStyles from './styles';
 
