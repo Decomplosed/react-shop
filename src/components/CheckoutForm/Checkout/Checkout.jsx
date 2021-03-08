@@ -23,6 +23,7 @@ const Checkout = () => {
           <Typography variant='h4' align='center'>
             Checkout
           </Typography>
+          <Stepper></Stepper>
         </Paper>
       </main>
     </>
