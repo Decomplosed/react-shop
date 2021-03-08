@@ -28,7 +28,7 @@ const Checkout = () => {
           <Stepper active={0} className={classes.stepper}>
             {steps.map((step) => (
               <Step key={step}>
-                <StepLabel></StepLabel>
+                <StepLabel>{step}</StepLabel>
               </Step>
             ))}
           </Stepper>
