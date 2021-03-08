@@ -16,6 +16,8 @@ import useStyles from './styles';
 
 const steps = ['Shipping address', 'Payment details'];
 
+const Confirmation = () => <div>Confirmation</div>;
+
 const Checkout = () => {
   const [activeStep, setActiveStep] = useState(0);
   const classes = useStyles();
