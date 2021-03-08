@@ -17,7 +17,7 @@ const AddressForm = () => {
       <Typography variant='h6' gutterBottom>
         Shipping Address
       </Typography>
-      <FormProvider></FormProvider>
+      <FormProvider {...methods}></FormProvider>
     </>
   );
 };
