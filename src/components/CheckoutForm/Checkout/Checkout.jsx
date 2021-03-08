@@ -18,6 +18,8 @@ const Checkout = () => {
   const [activeStep, setActiveStep] = useState(0);
   const classes = useStyles();
 
+  const Form = () => (activeStep === 0 ? <AddressForm /> : <PaymentForm />);
+
   return (
     <>
       <div className={classes.toolbar} />
