@@ -12,7 +12,11 @@ import { useForm, FormProvider } from 'react-hook-form';
 const AddressForm = () => {
   const methods = useForm();
 
-  return <></>;
+  return (
+    <>
+      <Typography></Typography>
+    </>
+  );
 };
 
 export default AddressForm;
