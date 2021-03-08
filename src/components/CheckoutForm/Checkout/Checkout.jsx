@@ -25,7 +25,9 @@ const Checkout = () => {
           <Typography variant='h4' align='center'>
             Checkout
           </Typography>
-          <Stepper active={0} className={classes.stepper}></Stepper>
+          <Stepper active={0} className={classes.stepper}>
+            {steps.map((step) => {})}
+          </Stepper>
         </Paper>
       </main>
     </>
