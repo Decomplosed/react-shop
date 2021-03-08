@@ -10,6 +10,8 @@ import {
 import { useForm, FormProvider } from 'react-hook-form';
 
 const AddressForm = () => {
+  const methods = useForm();
+
   return <div></div>;
 };
 
