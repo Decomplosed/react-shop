@@ -14,7 +14,9 @@ const AddressForm = () => {
 
   return (
     <>
-      <Typography variant='h6' gutterBottom></Typography>
+      <Typography variant='h6' gutterBottom>
+        Shipping Address
+      </Typography>
     </>
   );
 };
