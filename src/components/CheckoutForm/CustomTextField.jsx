@@ -2,7 +2,7 @@ import React from 'react';
 import { TextField, Grid } from '@material-ui/core';
 import { useFormContext, Controller } from 'react-hook-form';
 
-const CustomTextField = () => {
+const CustomTextField = ({ name, label, required }) => {
   const { control } = useFormContext();
 
   return (
