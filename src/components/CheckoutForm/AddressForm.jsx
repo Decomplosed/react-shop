@@ -24,6 +24,7 @@ const AddressForm = () => {
             <FormInput required name='firstName' label='First name' />
             <FormInput required name='lastName' label='Last name' />
             <FormInput required name='address1' label='Address' />
+            <FormInput required name='email' label='Email' />
           </Grid>
         </form>
       </FormProvider>
