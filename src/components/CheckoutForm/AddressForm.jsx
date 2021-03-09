@@ -13,6 +13,7 @@ import FormInput from './CustomTextField';
 const AddressForm = () => {
   const [shippingCountries, setShippingCountries] = useState([]);
   const [shippingCountry, setShippingCountry] = useState([]);
+  const [shippingSubdivisions, setShippingSubdivisions] = useState([]);
   const methods = useForm();
 
   return (
