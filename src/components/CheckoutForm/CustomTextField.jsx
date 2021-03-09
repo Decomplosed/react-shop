@@ -7,7 +7,7 @@ const CustomTextField = () => {
 
   return (
     <Grid item xs={12} sm={6}>
-      <Controller as={TextField} control={control} fullWidth />
+      <Controller as={TextField} control={control} fullWidth name={name} />
     </Grid>
   );
 };
