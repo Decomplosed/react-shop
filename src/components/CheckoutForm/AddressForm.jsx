@@ -21,6 +21,8 @@ const AddressForm = () => {
   const [shippingOption, setShippingOption] = useState('');
   const methods = useForm();
 
+  const fetchShippingCountries = () => {};
+
   return (
     <>
       <Typography variant='h6' gutterBottom>
