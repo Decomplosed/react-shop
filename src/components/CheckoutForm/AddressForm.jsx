@@ -27,6 +27,7 @@ const AddressForm = () => {
             <FormInput required name='email' label='Email' />
             <FormInput required name='city' label='City' />
             <FormInput required name='zip' label='ZIP / Postal code' />
+            <Grid></Grid>
           </Grid>
         </form>
       </FormProvider>
