@@ -20,7 +20,9 @@ const AddressForm = () => {
       </Typography>
       <FormProvider {...methods}>
         <form onSubmit={() => {}}>
-          <Grid container spacing={3}></Grid>
+          <Grid container spacing={3}>
+            <FormInput />
+          </Grid>
         </form>
       </FormProvider>
     </>
