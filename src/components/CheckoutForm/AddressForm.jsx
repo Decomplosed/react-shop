@@ -28,7 +28,7 @@ const AddressForm = () => {
             <FormInput required name='city' label='City' />
             <FormInput required name='zip' label='ZIP / Postal code' />
             <Grid item xs={12} sm={6}>
-              <InputLabel></InputLabel>
+              <InputLabel>Shipping Country</InputLabel>
             </Grid>
           </Grid>
         </form>
