@@ -30,7 +30,9 @@ const AddressForm = () => {
             <Grid item xs={12} sm={6}>
               <InputLabel>Shipping Country</InputLabel>
               <Select value={} fullWidth onChange={}>
-                <MenuItem key={}></MenuItem>
+                <MenuItem key={} value={}>
+                  Select Me
+                </MenuItem>
               </Select>
             </Grid>
           </Grid>
