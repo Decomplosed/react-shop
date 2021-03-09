@@ -13,6 +13,7 @@ const CustomTextField = () => {
         fullWidth
         name={name}
         label={label}
+        required={required}
       />
     </Grid>
   );
