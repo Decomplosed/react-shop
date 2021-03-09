@@ -29,7 +29,7 @@ const AddressForm = () => {
             <FormInput required name='zip' label='ZIP / Postal code' />
             <Grid item xs={12} sm={6}>
               <InputLabel>Shipping Country</InputLabel>
-              <Select></Select>
+              <Select value={} fullWidth onChange={}></Select>
             </Grid>
           </Grid>
         </form>
