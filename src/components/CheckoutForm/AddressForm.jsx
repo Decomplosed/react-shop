@@ -11,6 +11,7 @@ import { useForm, FormProvider } from 'react-hook-form';
 import FormInput from './CustomTextField';
 
 const AddressForm = () => {
+  const [shippingCountries, setShippingCountries] = useState([]);
   const methods = useForm();
 
   return (
