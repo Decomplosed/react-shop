@@ -21,7 +21,7 @@ const AddressForm = () => {
       <FormProvider {...methods}>
         <form onSubmit={() => {}}>
           <Grid container spacing={3}>
-            <FormInput />
+            <FormInput required />
           </Grid>
         </form>
       </FormProvider>
