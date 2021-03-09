@@ -22,6 +22,7 @@ const AddressForm = () => {
         <form onSubmit={() => {}}>
           <Grid container spacing={3}>
             <FormInput required name='firstName' label='First name' />
+            <FormInput required name='lastName' label='Last name' />
           </Grid>
         </form>
       </FormProvider>
