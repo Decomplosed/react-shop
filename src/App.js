@@ -45,8 +45,6 @@ const App = () => {
     fetchCart();
   }, []);
 
-  console.log(cart);
-
   return (
     <Router>
       <div>
