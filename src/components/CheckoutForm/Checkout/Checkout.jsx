@@ -35,7 +35,7 @@ const Checkout = ({ cart }) => {
           });
           setCheckoutToken(token);
         } catch (error) {
-          console.log(error);
+          if (activeStep !== steps.length) history.push('/');
         }
       };
 
