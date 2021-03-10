@@ -29,6 +29,10 @@ const AddressForm = () => {
     setShippingCountries(countries);
   };
 
+  useEffect(() => {
+
+  }, [])
+
   return (
     <>
       <Typography variant='h6' gutterBottom>
