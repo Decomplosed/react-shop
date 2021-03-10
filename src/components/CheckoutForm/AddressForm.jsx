@@ -48,15 +48,19 @@ const AddressForm = ({ checkoutToken }) => {
             <FormInput required name='email' label='Email' />
             <FormInput required name='city' label='City' />
             <FormInput required name='zip' label='ZIP / Postal code' />
-            {/* <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={6}>
               <InputLabel>Shipping Country</InputLabel>
-              <Select value={} fullWidth onChange={}>
+              <Select
+                value={shippingCountries}
+                fullWidth
+                onChange={(e) => setShippingCountry(e.target.value)}
+              >
                 <MenuItem key={} value={}>
                   Select Me
                 </MenuItem>
               </Select>
             </Grid>
-            <Grid item xs={12} sm={6}>
+            {/* <Grid item xs={12} sm={6}>
               <InputLabel>Shipping Subdivision</InputLabel>
               <Select value={} fullWidth onChange={}>
                 <MenuItem key={} value={}>
