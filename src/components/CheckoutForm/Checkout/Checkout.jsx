@@ -26,6 +26,7 @@ const Checkout = () => {
   useEffect(() => {
     const generateToken = async () => {
       try {
+        const token = await commerce.checkout.generateToken()
       } catch (error) {}
     };
   }, []);
