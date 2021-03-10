@@ -25,6 +25,8 @@ const AddressForm = () => {
     const { countries } = await commerce.services.localeListShippingCountries(
       checkoutTokenId,
     );
+
+    setShippingCountries(countries);
   };
 
   return (
