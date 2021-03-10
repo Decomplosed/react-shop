@@ -31,7 +31,9 @@ const Checkout = ({ cart }) => {
           type: 'cart',
         });
         setCheckoutToken(token);
-      } catch (error) {}
+      } catch (error) {
+        console.log(error);
+      }
 
       generateToken();
     };
