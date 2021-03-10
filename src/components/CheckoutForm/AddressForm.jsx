@@ -21,7 +21,7 @@ const AddressForm = () => {
   const [shippingOption, setShippingOption] = useState('');
   const methods = useForm();
 
-  const fetchShippingCountries = async () => {};
+  const fetchShippingCountries = async (checkoutTokenId) => {};
 
   return (
     <>
