@@ -12,6 +12,7 @@ import {
 import PaymentForm from '../PaymentForm';
 import AddressForm from '../AddressForm';
 import { commerce } from '../../../lib/commerce';
+import { useHistory } from 'react-router-dom';
 
 import useStyles from './styles';
 
