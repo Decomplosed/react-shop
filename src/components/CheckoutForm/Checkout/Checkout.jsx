@@ -19,14 +19,14 @@ const steps = ['Shipping address', 'Payment details'];
 
 const Confirmation = () => <div>Confirmation</div>;
 
-const Checkout = () => {
+const Checkout = ({ cart }) => {
   const [activeStep, setActiveStep] = useState(0);
   const classes = useStyles();
 
   useEffect(() => {
     const generateToken = async () => {
       try {
-        const token = await commerce.checkout.generateToken()
+        const token = await commerce.checkout.generateToken();
       } catch (error) {}
     };
   }, []);
