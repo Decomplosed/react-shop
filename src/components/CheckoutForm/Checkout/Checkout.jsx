@@ -23,7 +23,7 @@ const Checkout = () => {
   const classes = useStyles();
 
   useEffect(() => {
-    const generateToken = () => {}
+    const generateToken = async () => {};
   }, []);
 
   const Form = () => (activeStep === 0 ? <AddressForm /> : <PaymentForm />);
