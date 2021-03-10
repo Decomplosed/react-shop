@@ -12,7 +12,7 @@ import { commerce } from '../../lib/commerce';
 
 import FormInput from './CustomTextField';
 
-const AddressForm = () => {
+const AddressForm = ({ checkoutToken }) => {
   const [shippingCountries, setShippingCountries] = useState([]);
   const [shippingCountry, setShippingCountry] = useState('');
   const [shippingSubdivisions, setShippingSubdivisions] = useState([]);
