@@ -25,18 +25,20 @@ const Checkout = ({ cart }) => {
   const classes = useStyles();
 
   useEffect(() => {
-    const generateToken = async () => {
-      try {
-        const token = await commerce.checkout.generateToken(cart.id, {
-          type: 'cart',
-        });
-        setCheckoutToken(token);
-      } catch (error) {
-        console.log(error);
-      }
+    if (cart.id) {
+      const generateToken = async () => {
+        try {
+          const token = await commerce.checkout.generateToken(cart.id, {
+            type: 'cart',
+          });
+          setCheckoutToken(token);
+        } catch (error) {
+          console.log(error);
+        }
+      };
 
       generateToken();
-    };
+    }
   }, [cart]);
 
   const Form = () =>
