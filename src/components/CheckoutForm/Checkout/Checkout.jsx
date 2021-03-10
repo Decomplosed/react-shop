@@ -21,6 +21,7 @@ const Confirmation = () => <div>Confirmation</div>;
 
 const Checkout = ({ cart }) => {
   const [activeStep, setActiveStep] = useState(0);
+  const [checkoutToken, setCheckoutToken] = useState(null);
   const classes = useStyles();
 
   useEffect(() => {
