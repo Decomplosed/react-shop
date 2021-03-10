@@ -37,7 +37,7 @@ const Checkout = ({ cart }) => {
 
       generateToken();
     };
-  }, []);
+  }, [cart]);
 
   const Form = () =>
     activeStep === 0 ? (
