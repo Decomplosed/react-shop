@@ -59,7 +59,7 @@ const AddressForm = ({ checkoutToken }) => {
 
   useEffect(() => {
     if (shippingCountry) fetchSubdivisions(shippingCountry);
-  }, []);
+  }, [shippingCountry]);
 
   return (
     <>
