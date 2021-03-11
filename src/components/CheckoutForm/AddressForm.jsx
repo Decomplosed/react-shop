@@ -50,6 +50,7 @@ const AddressForm = ({ checkoutToken }) => {
     );
 
     setShippingOptions(options);
+    setShippingOption(options[0].id);
   };
 
   useEffect(() => {
