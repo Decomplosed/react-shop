@@ -48,6 +48,8 @@ const AddressForm = ({ checkoutToken }) => {
       checkoutTokenId,
       { country, region: stateProvince },
     );
+
+    setShippingOptions(options);
   };
 
   useEffect(() => {
