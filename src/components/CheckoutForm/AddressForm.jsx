@@ -68,7 +68,7 @@ const AddressForm = ({ checkoutToken }) => {
         shippingCountry,
         shippingSubdivision,
       );
-  }, []);
+  }, [shippingSubdivision]);
 
   return (
     <>
