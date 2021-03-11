@@ -61,6 +61,8 @@ const AddressForm = ({ checkoutToken }) => {
     if (shippingCountry) fetchSubdivisions(shippingCountry);
   }, [shippingCountry]);
 
+  useEffect(() => {}, []);
+
   return (
     <>
       <Typography variant='h6' gutterBottom>
