@@ -60,7 +60,9 @@ const AddressForm = ({ checkoutToken }) => {
                 fullWidth
                 onChange={(e) => setShippingCountry(e.target.value)}
               >
-                {countries.map(country => ())}
+                {countries.map((country) => (
+                  <MenuItem></MenuItem>
+                ))}
               </Select>
             </Grid>
             {/* <Grid item xs={12} sm={6}>
