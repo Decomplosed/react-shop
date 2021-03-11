@@ -61,7 +61,9 @@ const AddressForm = ({ checkoutToken }) => {
                 onChange={(e) => setShippingCountry(e.target.value)}
               >
                 {countries.map((country) => (
-                  <MenuItem key={country.id} value={country.id}></MenuItem>
+                  <MenuItem key={country.id} value={country.id}>
+                    {country.label}
+                  </MenuItem>
                 ))}
               </Select>
             </Grid>
