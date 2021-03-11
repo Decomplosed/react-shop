@@ -138,7 +138,7 @@ const AddressForm = ({ checkoutToken }) => {
           </Grid>
           <br />
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <Button component={Link}></Button>
+            <Button component={Link} variant='outlined' to='/cart'></Button>
           </div>
         </form>
       </FormProvider>
