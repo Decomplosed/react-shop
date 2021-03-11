@@ -36,6 +36,7 @@ const AddressForm = ({ checkoutToken }) => {
     );
 
     setShippingSubdivisions(subdivisions);
+    setShippingSubdivision(Object.keys(subdivisions)[0]);
   };
 
   const fetchShippingSubdivisions = async () => {};
