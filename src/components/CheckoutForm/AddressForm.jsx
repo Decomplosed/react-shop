@@ -137,6 +137,9 @@ const AddressForm = ({ checkoutToken }) => {
             </Grid>
           </Grid>
           <br />
+          <div
+            style={{ display: 'flex', justifyContent: 'space-between' }}
+          ></div>
         </form>
       </FormProvider>
     </>
