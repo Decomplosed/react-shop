@@ -43,7 +43,12 @@ const AddressForm = ({ checkoutToken }) => {
     checkoutTokenId,
     country,
     stateProvince = null,
-  ) => {};
+  ) => {
+    const options = await commerce.checkout.getShippingOptions(
+      checkoutTokenId,
+      { country, region: stateProvince },
+    );
+  };
 
   useEffect(() => {
     fetchShippingCountries(checkoutToken.id);
