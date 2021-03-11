@@ -30,6 +30,8 @@ const AddressForm = ({ checkoutToken }) => {
     setShippingCountry(Object.keys(countries)[0]);
   };
 
+  const fetchSubdivisions = () => {};
+
   const fetchShippingSubdivisions = async () => {};
 
   useEffect(() => {
