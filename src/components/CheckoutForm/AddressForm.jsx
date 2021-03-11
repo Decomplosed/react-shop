@@ -51,7 +51,7 @@ const AddressForm = ({ checkoutToken }) => {
             <Grid item xs={12} sm={6}>
               <InputLabel>Shipping Country</InputLabel>
               <Select
-                value={shippingCountries}
+                value={shippingCountry}
                 fullWidth
                 onChange={(e) => setShippingCountry(e.target.value)}
               >
