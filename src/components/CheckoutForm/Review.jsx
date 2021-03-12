@@ -8,7 +8,9 @@ const Review = ({ checkoutToken }) => {
         Order summary
       </Typography>
       <List disablePadding>
-        {checkoutToken.live.line_items.map()}
+        {checkoutToken.live.line_items.map((product) => (
+          <ListItem></ListItem>
+        ))}
       </List>
     </>
   );
