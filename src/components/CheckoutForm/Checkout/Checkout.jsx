@@ -18,8 +18,6 @@ import useStyles from './styles';
 
 const steps = ['Shipping address', 'Payment details'];
 
-const Confirmation = () => <div>Confirmation</div>;
-
 const Checkout = ({ cart }) => {
   const [activeStep, setActiveStep] = useState(0);
   const [checkoutToken, setCheckoutToken] = useState(null);
@@ -44,12 +42,16 @@ const Checkout = ({ cart }) => {
     }
   }, [cart]);
 
+  const next = () => {}
+
   const Form = () =>
     activeStep === 0 ? (
       <AddressForm checkoutToken={checkoutToken} />
     ) : (
       <PaymentForm />
     );
+
+  const Confirmation = () => <div>Confirmation</div>;
 
   return (
     <>
