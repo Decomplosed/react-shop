@@ -7,6 +7,8 @@ import {
 } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 
+const stripePromise = loadStripe();
+
 const PaymentForm = () => {
   return <div></div>;
 };
