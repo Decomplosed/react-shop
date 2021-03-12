@@ -14,6 +14,7 @@ const Review = ({ checkoutToken }) => {
               primary={product.name}
               secondary={`Quantity: ${product.quantity}`}
             />
+            <Typography></Typography>
           </ListItem>
         ))}
       </List>
