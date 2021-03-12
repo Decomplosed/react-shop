@@ -20,7 +20,9 @@ const Review = ({ checkoutToken }) => {
           </ListItem>
         ))}
       </List>
-      <ListItem style={{ padding: '10px 0' }}></ListItem>
+      <ListItem style={{ padding: '10px 0' }}>
+        <ListItemText primary='Total' />
+      </ListItem>
     </>
   );
 };
