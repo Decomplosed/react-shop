@@ -10,7 +10,11 @@ import { loadStripe } from '@stripe/stripe-js';
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const PaymentForm = () => {
-  return <div></div>;
+  return (
+    <>
+      <Review />
+    </>
+  );
 };
 
 export default PaymentForm;
