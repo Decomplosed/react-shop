@@ -5,6 +5,7 @@ import {
   CardElement,
   ElementsConsumer,
 } from '@stripe/react-stripe-js';
+import { loadStripe } from '@stripe/stripe-js';
 
 const PaymentForm = () => {
   return <div></div>;
