@@ -22,6 +22,7 @@ const Review = ({ checkoutToken }) => {
       </List>
       <ListItem style={{ padding: '10px 0' }}>
         <ListItemText primary='Total' />
+        <Typography></Typography>
       </ListItem>
     </>
   );
