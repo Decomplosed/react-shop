@@ -42,7 +42,9 @@ const Checkout = ({ cart }) => {
     }
   }, [cart]);
 
-  const next = () => {}
+  const next = (data) => {
+    
+  }
 
   const Form = () =>
     activeStep === 0 ? (
