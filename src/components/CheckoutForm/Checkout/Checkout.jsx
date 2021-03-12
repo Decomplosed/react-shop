@@ -43,7 +43,7 @@ const Checkout = ({ cart }) => {
     }
   }, [cart]);
 
-  const nextStep = () =>
+  const nextStep = () => setActiveStep((prevActiveStep) => prevActiveStep + 1);
 
   const next = (data) => {
     setShippingData(data);
