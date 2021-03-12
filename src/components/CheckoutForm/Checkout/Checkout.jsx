@@ -21,6 +21,7 @@ const steps = ['Shipping address', 'Payment details'];
 const Checkout = ({ cart }) => {
   const [activeStep, setActiveStep] = useState(0);
   const [checkoutToken, setCheckoutToken] = useState(null);
+  const [shippingData, setShippingData] = useState({});
   const classes = useStyles();
   const history = useHistory();
 
@@ -42,9 +43,7 @@ const Checkout = ({ cart }) => {
     }
   }, [cart]);
 
-  const next = (data) => {
-    
-  }
+  const next = (data) => {};
 
   const Form = () =>
     activeStep === 0 ? (
