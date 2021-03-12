@@ -22,7 +22,8 @@ const Review = ({ checkoutToken }) => {
       </List>
       <ListItem style={{ padding: '10px 0' }}>
         <ListItemText primary='Total' />
-        <Typography></Typography>
+        <Typography variant="subtitle1" style={{ fontWeight: 700 }}>
+        </Typography>
       </ListItem>
     </>
   );
