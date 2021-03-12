@@ -43,6 +43,8 @@ const Checkout = ({ cart }) => {
     }
   }, [cart]);
 
+  const nextStep = () =>
+
   const next = (data) => {
     setShippingData(data);
   };
