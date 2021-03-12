@@ -43,7 +43,9 @@ const Checkout = ({ cart }) => {
     }
   }, [cart]);
 
-  const next = (data) => {};
+  const next = (data) => {
+    setShippingData(data);
+  };
 
   const Form = () =>
     activeStep === 0 ? (
