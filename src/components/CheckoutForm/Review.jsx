@@ -7,6 +7,7 @@ const Review = ({ checkoutToken }) => {
       <Typography variant='h6' gutterBottom>
         Order summary
       </Typography>
+      <List></List>
     </>
   );
 };
