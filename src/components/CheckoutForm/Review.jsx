@@ -7,7 +7,9 @@ const Review = ({ checkoutToken }) => {
       <Typography variant='h6' gutterBottom>
         Order summary
       </Typography>
-      <List disablePadding></List>
+      <List disablePadding>
+        {checkoutToken.live.line_items.map()}
+      </List>
     </>
   );
 };
