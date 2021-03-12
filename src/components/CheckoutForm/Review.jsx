@@ -14,7 +14,9 @@ const Review = ({ checkoutToken }) => {
               primary={product.name}
               secondary={`Quantity: ${product.quantity}`}
             />
-            <Typography variant='body2'></Typography>
+            <Typography variant='body2'>
+              {product.line_total.formatted_with_symbol}
+            </Typography>
           </ListItem>
         ))}
       </List>
