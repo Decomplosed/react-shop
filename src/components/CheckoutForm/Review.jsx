@@ -10,7 +10,10 @@ const Review = ({ checkoutToken }) => {
       <List disablePadding>
         {checkoutToken.live.line_items.map((product) => (
           <ListItem style={{ padding: '10px 0' }} key={product.name}>
-            <ListItemText />
+            <ListItemText
+              primary={product.name}
+              secondary={`Quantity: ${product.quantity}`}
+            />
           </ListItem>
         ))}
       </List>
