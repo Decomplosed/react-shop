@@ -15,6 +15,7 @@ const PaymentForm = ({ checkoutToken }) => {
   return (
     <>
       <Review checkoutToken={checkoutToken} />
+      <Divider />
     </>
   );
 };
