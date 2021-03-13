@@ -19,7 +19,7 @@ const PaymentForm = ({ checkoutToken }) => {
       <Typography variant='h6' gutterBottom style={{ margin: '20px 0' }}>
         Payment method
       </Typography>
-      <Elements></Elements>
+      <Elements stripe={stripePromise}></Elements>
     </>
   );
 };
