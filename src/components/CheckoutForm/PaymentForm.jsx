@@ -16,7 +16,7 @@ const PaymentForm = ({ checkoutToken }) => {
     <>
       <Review checkoutToken={checkoutToken} />
       <Divider />
-      <Typography></Typography>
+      <Typography variant='h6'></Typography>
     </>
   );
 };
