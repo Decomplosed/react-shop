@@ -14,7 +14,7 @@ const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 const PaymentForm = ({ checkoutToken }) => {
   return (
     <>
-      <Review />
+      <Review checkoutToken={checkoutToken} />
     </>
   );
 };
