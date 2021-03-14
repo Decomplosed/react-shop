@@ -32,6 +32,7 @@ const PaymentForm = ({ checkoutToken }) => {
                   type='submit'
                   variant='contained'
                   disabled={!stripe}
+                  color='primary'
                 ></Button>
               </div>
             </form>
