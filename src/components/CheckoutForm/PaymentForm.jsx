@@ -16,6 +16,8 @@ const PaymentForm = ({ checkoutToken, backStep }) => {
     event.preventDefault();
 
     if (!stripe || !elements) return;
+
+    const cardElement = elements.getElement(CardElement);
   };
 
   return (
