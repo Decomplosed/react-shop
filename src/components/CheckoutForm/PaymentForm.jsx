@@ -26,6 +26,7 @@ const PaymentForm = ({ checkoutToken }) => {
               <CardElement />
               <br />
               <br />
+              <div></div>
             </form>
           )}
         </ElementsConsumer>
