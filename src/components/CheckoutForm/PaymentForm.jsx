@@ -26,7 +26,9 @@ const PaymentForm = ({ checkoutToken, backStep }) => {
     if (error) {
       console.log(error);
     } else {
-      const orderData = {};
+      const orderData = {
+        line_items: checkoutToken.live.line_items,
+      };
     }
   };
 
