@@ -28,6 +28,7 @@ const PaymentForm = ({ checkoutToken, backStep }) => {
     } else {
       const orderData = {
         line_items: checkoutToken.live.line_items,
+        customer: {},
       };
     }
   };
