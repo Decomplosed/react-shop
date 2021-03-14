@@ -26,7 +26,7 @@ const PaymentForm = ({ checkoutToken, backStep }) => {
               <CardElement />
               <br />
               <br />
-              <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <Button variant='outlined' onClick={backStep}>
                   Back
                 </Button>
