@@ -33,7 +33,9 @@ const PaymentForm = ({ checkoutToken }) => {
                   variant='contained'
                   disabled={!stripe}
                   color='primary'
-                ></Button>
+                >
+                  Pay {checkoutToken.live.subtotal.formatted_with_symbol}
+                </Button>
               </div>
             </form>
           )}
