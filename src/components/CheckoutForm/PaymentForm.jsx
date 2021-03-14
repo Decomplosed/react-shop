@@ -22,7 +22,7 @@ const PaymentForm = ({ checkoutToken, backStep }) => {
       <Elements stripe={stripePromise}>
         <ElementsConsumer>
           {({ elements, stripe }) => (
-            <form>
+            <form onSubmit={}>
               <CardElement />
               <br />
               <br />
