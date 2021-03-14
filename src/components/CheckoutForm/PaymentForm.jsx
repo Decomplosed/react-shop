@@ -28,7 +28,11 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
     } else {
       const orderData = {
         line_items: checkoutToken.live.line_items,
-        customer: {},
+        customer: {
+          firstname: shippingData.firstName,
+          lastname: shippingData.lastName,
+          email: shippingData.email,
+        },
       };
     }
   };
