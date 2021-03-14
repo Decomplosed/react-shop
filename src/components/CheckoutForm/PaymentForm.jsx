@@ -11,7 +11,7 @@ import Review from './Review';
 
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
-const PaymentForm = ({ checkoutToken }) => {
+const PaymentForm = ({ checkoutToken, backStep }) => {
   return (
     <>
       <Review checkoutToken={checkoutToken} />
