@@ -12,7 +12,9 @@ import Review from './Review';
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 
 const PaymentForm = ({ checkoutToken, backStep }) => {
-  const handleSubmit = (event, elements, stripe) => {};
+  const handleSubmit = (event, elements, stripe) => {
+    event.preventDefault();
+  };
 
   return (
     <>
