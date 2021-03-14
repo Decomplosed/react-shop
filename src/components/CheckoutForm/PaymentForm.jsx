@@ -27,7 +27,9 @@ const PaymentForm = ({ checkoutToken }) => {
               <br />
               <br />
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <Button variant='outlined'>Back</Button>
+                <Button variant='outlined' onClick={}>
+                  Back
+                </Button>
                 <Button
                   type='submit'
                   variant='contained'
