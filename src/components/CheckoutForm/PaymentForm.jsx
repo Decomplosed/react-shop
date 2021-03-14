@@ -21,7 +21,11 @@ const PaymentForm = ({ checkoutToken }) => {
       </Typography>
       <Elements stripe={stripePromise}>
         <ElementsConsumer>
-          {({ elements, stripe }) => <form></form>}
+          {({ elements, stripe }) => (
+            <form>
+              <CardElement />
+            </form>
+          )}
         </ElementsConsumer>
       </Elements>
     </>
