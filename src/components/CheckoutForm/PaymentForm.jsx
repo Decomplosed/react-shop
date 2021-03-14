@@ -33,6 +33,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
           lastname: shippingData.lastName,
           email: shippingData.email,
         },
+        shipping: {},
       };
     }
   };
