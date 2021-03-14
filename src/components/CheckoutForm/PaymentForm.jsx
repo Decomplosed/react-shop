@@ -27,7 +27,7 @@ const PaymentForm = ({ checkoutToken }) => {
               <br />
               <br />
               <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <Button></Button>
+                <Button variant='outlined'>Back</Button>
               </div>
             </form>
           )}
