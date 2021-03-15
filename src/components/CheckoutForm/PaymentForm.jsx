@@ -40,6 +40,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
           town_city: shippingData.city,
           county_state: shippingData.shippingSubdivision,
           postal_zip_code: shippingData.zip,
+          country: shippingData.shippingCountry,
         },
         payment: {
           gateway: 'stripe',
