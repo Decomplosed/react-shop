@@ -42,6 +42,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
           stripe: {
             payment_method_id: paymentMethod.id,
             street: shippingData.address1,
+            town_city: shippingData.city,
           },
         },
       };
