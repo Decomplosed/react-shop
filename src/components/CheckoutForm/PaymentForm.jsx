@@ -35,6 +35,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
           fulfillment: { shipping_method: shippingData.shippingOption },
         },
         shipping: {},
+        payment: {},
       };
     }
   };
