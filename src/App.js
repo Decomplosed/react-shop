@@ -34,7 +34,7 @@ const App = () => {
     setCart(cart);
   };
 
-  const handleEmptyCart = async () => {
+  const handleEmptyCart = async (checkoutId, newOrder) => {
     const { cart } = await commerce.cart.empty();
 
     setCart(cart);
