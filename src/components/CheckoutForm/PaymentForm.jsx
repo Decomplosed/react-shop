@@ -43,6 +43,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
             payment_method_id: paymentMethod.id,
             street: shippingData.address1,
             town_city: shippingData.city,
+            county_state: shippingData.shippingSubdivision,
           },
         },
       };
