@@ -40,7 +40,10 @@ const App = () => {
     setCart(cart);
   };
 
-  const handleCaptureCheckout = async () => {};
+  const handleCaptureCheckout = async () => {
+    try {
+    } catch (error) {}
+  };
 
   useEffect(() => {
     fetchProducts();
