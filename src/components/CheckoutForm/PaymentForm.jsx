@@ -55,7 +55,7 @@ const PaymentForm = ({
         },
       };
 
-      onCaptureCheckout();
+      onCaptureCheckout(checkoutToken.id, orderData);
     }
   };
 
