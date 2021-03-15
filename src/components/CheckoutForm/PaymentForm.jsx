@@ -37,6 +37,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
         shipping: {},
         payment: {
           gateway: 'stripe',
+          stripe: {},
         },
       };
     }
