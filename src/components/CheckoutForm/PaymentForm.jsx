@@ -34,7 +34,9 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
           email: shippingData.email,
           fulfillment: { shipping_method: shippingData.shippingOption },
         },
-        shipping: {},
+        shipping: {
+          name: 'International',
+        },
         payment: {
           gateway: 'stripe',
           stripe: {
