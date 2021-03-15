@@ -43,6 +43,8 @@ const App = () => {
 
   const refreshCart = async () => {
     const newCart = await commerce.cart.refresh();
+
+    setCart(newCart);
   };
 
   const handleCaptureCheckout = async () => {
