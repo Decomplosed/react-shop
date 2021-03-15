@@ -41,7 +41,7 @@ const App = () => {
     setCart(cart);
   };
 
-  const refreshCart = () => {};
+  const refreshCart = async () => {};
 
   const handleCaptureCheckout = async () => {
     try {
