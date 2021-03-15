@@ -36,14 +36,14 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
         },
         shipping: {
           name: 'International',
+          street: shippingData.address1,
+          town_city: shippingData.city,
+          county_state: shippingData.shippingSubdivision,
         },
         payment: {
           gateway: 'stripe',
           stripe: {
             payment_method_id: paymentMethod.id,
-            street: shippingData.address1,
-            town_city: shippingData.city,
-            county_state: shippingData.shippingSubdivision,
           },
         },
       };
