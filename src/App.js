@@ -57,7 +57,9 @@ const App = () => {
 
       setOrder(incomingOrder);
       refreshCart();
-    } catch (error) {}
+    } catch (error) {
+      setErrorMessage(error.data.error.message);
+    }
   };
 
   useEffect(() => {
