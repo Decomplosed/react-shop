@@ -60,6 +60,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
         checkoutToken={checkoutToken}
         backStep={backStep}
         shippingData={shippingData}
+        onCaptureCheckout={onCaptureCheckout}
       />
     );
 
