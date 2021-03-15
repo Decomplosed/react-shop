@@ -42,6 +42,10 @@ const App = () => {
 
   const handleCaptureCheckout = async () => {
     try {
+      const incomingOrder = await commerce.checkout.capture(
+        checkoutTokenId,
+        newOrder,
+      );
     } catch (error) {}
   };
 
