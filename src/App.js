@@ -88,7 +88,7 @@ const App = () => {
               cart={cart}
               order={order}
               onCaptureCheckout={handleCaptureCheckout}
-              error={error}
+              error={errorMessage}
             />
           </Route>
         </Switch>
