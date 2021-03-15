@@ -40,6 +40,8 @@ const App = () => {
     setCart(cart);
   };
 
+  const handleCaptureCheckout = () => {};
+
   useEffect(() => {
     fetchProducts();
     fetchCart();
