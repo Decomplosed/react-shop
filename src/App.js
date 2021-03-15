@@ -47,6 +47,8 @@ const App = () => {
         checkoutTokenId,
         newOrder,
       );
+
+      setOrder(incomingOrder);
     } catch (error) {}
   };
 
