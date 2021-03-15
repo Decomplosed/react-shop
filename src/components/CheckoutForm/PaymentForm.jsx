@@ -32,7 +32,7 @@ const PaymentForm = ({ checkoutToken, backStep, shippingData }) => {
           firstname: shippingData.firstName,
           lastname: shippingData.lastName,
           email: shippingData.email,
-          fulfillment: {},
+          fulfillment: { shipping_method: shippingData.shippingOption },
         },
         shipping: {},
       };
