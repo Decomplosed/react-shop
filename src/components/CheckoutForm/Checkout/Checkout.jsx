@@ -79,7 +79,8 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
           </Typography>
         </div>
         <br />
-        <Button></Button>
+        <Button component={Link} >
+        </Button>
       </>
     ) : (
       <div className={classes.spinner}>
