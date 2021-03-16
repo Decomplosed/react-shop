@@ -17,6 +17,7 @@ const PaymentForm = ({
   shippingData,
   onCaptureCheckout,
   nextStep,
+  timeout,
 }) => {
   const handleSubmit = async (event, elements, stripe) => {
     event.preventDefault();
