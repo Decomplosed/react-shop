@@ -74,7 +74,9 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
             {order.customer.lastname}!
           </Typography>
           <Divider className={classes.divider} />
-          <Typography variant='subtitle2'></Typography>
+          <Typography variant='subtitle2'>
+            Order ref: {order.customer_reference}
+          </Typography>
         </div>
       </>
     ) : (
