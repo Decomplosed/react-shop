@@ -74,7 +74,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
             {order.customer.lastname}!
           </Typography>
           <Divider className={classes.divider} />
-          <Typography></Typography>
+          <Typography variant='subtitle2'></Typography>
         </div>
       </>
     ) : (
