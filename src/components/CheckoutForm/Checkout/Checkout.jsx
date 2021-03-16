@@ -69,7 +69,10 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
     order.customer ? (
       <>
         <div>
-        <Typography variant="h5"></Typography>
+          <Typography variant='h5'>
+            Thank you for your purchase, {order.customer.firstname}{' '}
+            {order.customer.lastname}!
+          </Typography>
         </div>
       </>
     ) : (
