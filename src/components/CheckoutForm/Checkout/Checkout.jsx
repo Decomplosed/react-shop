@@ -79,7 +79,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
           </Typography>
         </div>
         <br />
-        <Button component={Link}></Button>
+        <Button component={Link} vvariant='outlined'></Button>
       </>
     ) : (
       <div className={classes.spinner}>
