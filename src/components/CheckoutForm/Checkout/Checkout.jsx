@@ -68,7 +68,9 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
   const Confirmation = () =>
     order.customer ? (
       <>
-        <div></div>
+        <div>
+          <Typography></Typography>
+        </div>
       </>
     ) : (
       <div className={classes.spinner}>
