@@ -73,6 +73,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
             Thank you for your purchase, {order.customer.firstname}{' '}
             {order.customer.lastname}!
           </Typography>
+          <Divider />
         </div>
       </>
     ) : (
