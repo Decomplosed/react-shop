@@ -66,7 +66,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
       />
     );
 
-  const timeour = () => {}
+  const timeout = () => {};
 
   let Confirmation = () =>
     order.customer ? (
