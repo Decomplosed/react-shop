@@ -92,6 +92,8 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
           Back to home
         </Button>
       </>
+    ) : isFinished ? (
+      <></>
     ) : (
       <div className={classes.spinner}>
         <CircularProgress />
