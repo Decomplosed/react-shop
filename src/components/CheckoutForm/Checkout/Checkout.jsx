@@ -93,7 +93,14 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
         </Button>
       </>
     ) : isFinished ? (
-      <></>
+      <>
+        <div>
+          <Typography variant='h5'>
+            Thank you for your purchase!
+          </Typography>
+          <Divider className={classes.divider} />
+        </div>
+      </>
     ) : (
       <div className={classes.spinner}>
         <CircularProgress />
