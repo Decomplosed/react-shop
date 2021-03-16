@@ -65,7 +65,14 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
       />
     );
 
-  const Confirmation = () => <div>Confirmation</div>;
+  const Confirmation = () =>
+    order.customer ? (
+      <>
+        <div></div>
+      </>
+    ) : (
+      <div className={classes.spinner}></div>
+    );
 
   return (
     <>
