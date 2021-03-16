@@ -64,6 +64,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
         backStep={backStep}
         shippingData={shippingData}
         onCaptureCheckout={onCaptureCheckout}
+        timeout={timeout}
       />
     );
 
