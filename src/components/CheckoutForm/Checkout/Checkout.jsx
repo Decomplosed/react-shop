@@ -8,6 +8,7 @@ import {
   CircularProgress,
   Divider,
   Button,
+  CssBaseline
 } from '@material-ui/core';
 import PaymentForm from '../PaymentForm';
 import AddressForm from '../AddressForm';
