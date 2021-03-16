@@ -78,6 +78,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
             Order ref: {order.customer_reference}
           </Typography>
         </div>
+        <br />
       </>
     ) : (
       <div className={classes.spinner}>
