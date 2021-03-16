@@ -23,6 +23,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
   const [activeStep, setActiveStep] = useState(0);
   const [checkoutToken, setCheckoutToken] = useState(null);
   const [shippingData, setShippingData] = useState({});
+  
   const classes = useStyles();
   const history = useHistory();
 
@@ -66,7 +67,9 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
       />
     );
 
-  const timeout = () => {};
+  const timeout = () => {
+    setTimeout(() => {}, 3000)
+  };
 
   let Confirmation = () =>
     order.customer ? (
