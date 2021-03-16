@@ -71,7 +71,9 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
         <div></div>
       </>
     ) : (
-      <div className={classes.spinner}></div>
+      <div className={classes.spinner}>
+        <CircularProgress />
+      </div>
     );
 
   return (
