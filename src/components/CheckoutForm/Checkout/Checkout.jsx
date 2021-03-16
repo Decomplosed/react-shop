@@ -69,7 +69,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
     order.customer ? (
       <>
         <div>
-          <Typography></Typography>
+        <Typography variant="h5"></Typography>
         </div>
       </>
     ) : (
