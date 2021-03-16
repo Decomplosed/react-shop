@@ -8,7 +8,7 @@ import {
   CircularProgress,
   Divider,
   Button,
-  CssBaseline
+  CssBaseline,
 } from '@material-ui/core';
 import PaymentForm from '../PaymentForm';
 import AddressForm from '../AddressForm';
@@ -66,7 +66,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
       />
     );
 
-  const Confirmation = () =>
+  let Confirmation = () =>
     order.customer ? (
       <>
         <div>
@@ -92,7 +92,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
 
   return (
     <>
-    <CssBaseline />
+      <CssBaseline />
       <div className={classes.toolbar} />
       <main className={classes.layout}>
         <Paper className={classes.paper}>
