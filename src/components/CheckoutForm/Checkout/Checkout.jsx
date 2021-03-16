@@ -95,11 +95,13 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
     ) : isFinished ? (
       <>
         <div>
-          <Typography variant='h5'>
-            Thank you for your purchase!
-          </Typography>
+          <Typography variant='h5'>Thank you for your purchase!</Typography>
           <Divider className={classes.divider} />
         </div>
+        <br />
+        <Button component={Link} vvariant='outlined' type='button' to='/'>
+          Back to home
+        </Button>
       </>
     ) : (
       <div className={classes.spinner}>
