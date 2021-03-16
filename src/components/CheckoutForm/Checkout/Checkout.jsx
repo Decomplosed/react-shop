@@ -23,7 +23,7 @@ const Checkout = ({ cart, order, onCaptureCheckout, errorMessage }) => {
   const [activeStep, setActiveStep] = useState(0);
   const [checkoutToken, setCheckoutToken] = useState(null);
   const [shippingData, setShippingData] = useState({});
-  
+  const [isFinished, setIsFinished] = useState(false);
   const classes = useStyles();
   const history = useHistory();
 
